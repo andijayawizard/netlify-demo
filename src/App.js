@@ -1,12 +1,15 @@
-// import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Bottom from "./components/class/Bottom";
+import Top from "./components/class/Top";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>hayu aja dh kita sih</h1>
-        <h2>selamat pagi, siang, sore dan malam</h2>
+        <Top />
+        <h1>welcome to simple app</h1>
+        <h2>good morning</h2>
+        <Bottom />
       </header>
     </div>
   );
